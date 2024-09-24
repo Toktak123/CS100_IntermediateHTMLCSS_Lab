@@ -17,3 +17,26 @@ header, nav, article, div, footer{
 
     text-align: center;
 }
+
+header{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    clear: both;
+}
+
+
+nav, article, div{
+    float: left;
+    height: 200px;
+}
+
+nav, div{
+    width: 20%;
+}
+
+article{
+    width: 60%;
+}
